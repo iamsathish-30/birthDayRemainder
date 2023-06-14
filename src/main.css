@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #413543;
+}
+/* The below CSS is for App component */
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #EEEEEE;
+    border: 1px solid gray;
+    height: 80%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-text{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.btn{
+    margin-top: 30px;
+    align-self: center;
+    width: 120px;
+    height:40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #413543;
+    color:white ;
+}
+
+/* The Above CSS is for App component */
+
+/* The below CSS is for Detail component */
+
+.box{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-block: 10px;
+}
+.image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content{
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.person-name{
+    margin: 0px;
+    padding: 7px 0;
+}
+
+.person-age{
+    margin: 0;
+    font-size: 0.7rem;
+}

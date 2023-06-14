@@ -1,0 +1,22 @@
+export default [
+    {
+        name:"Sathish",
+        age:20,
+        img:'../public/img1.jpeg',
+    },
+    {
+        name:"Saran",
+        age:19,
+        img:'../public/img2.jpeg',
+    },
+    {
+        name:"Hari",
+        age:19,
+        img:'../public/img3.jpeg',
+    },
+    {
+        name:"Viper",
+        age:21,
+        img:'../public/img1.jpeg',
+    }
+]
